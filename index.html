@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f2e9">
+    <meta
+      name="description"
+      content="Uma lembrança carinhosa da vozinha, com seus ditados populares."
+    >
+    <title>Ditados da Vózinha</title>
+    <link rel="icon" href="assets/vozinha_avatar.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="memory-card">
+      <p class="eyebrow">Com carinho, para a família</p>
+      <h1>Ditados da Vózinha</h1>
+      <p class="intro">Um pedacinho dela, sempre pertinho da gente.</p>
+
+      <img
+        class="portrait"
+        src="assets/vozinha_avatar.jpeg"
+        alt="Foto da vózinha"
+      >
+
+      <button
+        class="audio-button"
+        id="play-audio"
+        type="button"
+        aria-label="Ouvir um ditado da vózinha"
+        title="Ouvir um ditado da vózinha"
+      >
+        <svg
+          class="play-icon"
+          viewBox="0 0 48 48"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path d="M12 19v10h8l11 9V10l-11 9h-8Z"></path>
+          <path d="M36 18a9 9 0 0 1 0 12"></path>
+          <path d="M39 13a16 16 0 0 1 0 22"></path>
+        </svg>
+      </button>
+
+      <p class="hint" id="audio-status" role="status" aria-live="polite">
+        Toque no botão para ouvir uma lembrança.
+      </p>
+      <audio id="audio-player" preload="none"></audio>
+    </main>
+  </body>
+</html>

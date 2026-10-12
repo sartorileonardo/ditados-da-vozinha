@@ -1,0 +1,141 @@
+:root {
+  color-scheme: light;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #40362d;
+  background: #f7f2e9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-width: 280px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  place-items: center;
+  background:
+    radial-gradient(ellipse at 50% 0, #fffdf7 0, transparent 58%),
+    #f7f2e9;
+}
+
+@supports (min-height: 100svh) {
+  body {
+    min-height: 100svh;
+  }
+}
+
+.memory-card {
+  width: min(100%, 440px);
+  padding: 40px 28px 32px;
+  border: 1px solid #e8dfd1;
+  border-radius: 28px;
+  background: rgb(255 253 248 / 88%);
+  box-shadow: 0 20px 60px rgb(75 57 37 / 9%);
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #98744d;
+  font-family: Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  color: #614a36;
+  font-size: clamp(2rem, 8vw, 2.8rem);
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.intro {
+  margin: 14px 0 26px;
+  color: #776b5d;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.portrait {
+  display: block;
+  width: min(100%, 260px);
+  aspect-ratio: 1;
+  margin: 0 auto 26px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  background: #eee3d3;
+  box-shadow: 0 5px 20px rgb(75 57 37 / 12%);
+  object-fit: cover;
+}
+
+.audio-button {
+  display: inline-grid;
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #8b6846;
+  color: #fffdf8;
+  cursor: pointer;
+  place-items: center;
+  box-shadow: 0 8px 18px rgb(91 65 39 / 22%);
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.audio-button:hover {
+  transform: translateY(-2px);
+  background: #745435;
+}
+
+.audio-button:focus-visible {
+  outline: 3px solid #c3a77f;
+  outline-offset: 4px;
+}
+
+.audio-button:active {
+  transform: scale(0.96);
+}
+
+.audio-button:disabled {
+  cursor: wait;
+  opacity: 0.75;
+}
+
+.play-icon {
+  width: 38px;
+  height: 38px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+
+.hint {
+  min-height: 1.5em;
+  margin: 18px 0 0;
+  color: #776b5d;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
