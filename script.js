@@ -34,6 +34,10 @@ const audios = [
   { titulo: "Gastar vela", arquivo: "audios/ditado_gastar_vela.mp3" },
   { titulo: "Gato escaldado", arquivo: "audios/ditado_gato_escaldado.mp3" },
   { titulo: "Gato por lebre", arquivo: "audios/ditado_gato_por_lebre.mp3" },
+  {
+    titulo: "Gordo que é um porco",
+    arquivo: "audios/ditado_gordo_que_eh_um_porco.mp3",
+  },
   { titulo: "Mandrião", arquivo: "audios/ditado_mandriao.mp3" },
   {
     titulo: "Dize-me com quem andas",
@@ -43,6 +47,10 @@ const audios = [
   {
     titulo: "Não vai lavar louça",
     arquivo: "audios/ditado_nao_vai_lavar_louca.mp3",
+  },
+  {
+    titulo: "Não faça mal ao vizinho",
+    arquivo: "audios/ditado_nao_faca_mal_ao_vizinho.mp3",
   },
   { titulo: "O apressado", arquivo: "audios/ditado_o_apressado.mp3" },
   { titulo: "Olho por olho", arquivo: "audios/ditado_olho_lho.mp3" },
