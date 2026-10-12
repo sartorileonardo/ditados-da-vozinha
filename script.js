@@ -47,6 +47,10 @@ const audios = [
     titulo: "Dize-me com quem andas",
     arquivo: "audios/ditado_me_digas_com_quem_andas.mp3",
   },
+  {
+    titulo: "Meu Jesus querido",
+    arquivo: "audios/ditado_meu_jesus_querido.mp3",
+  },
   { titulo: "Mofas com a pomba", arquivo: "audios/ditado_mofas_com_a_pomba.mp3" },
   {
     titulo: "Não vai lavar louça",
