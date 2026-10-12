@@ -8,6 +8,10 @@ const audios = [
     arquivo: "audios/ditado_cachorro_que_muito_late.mp3",
   },
   {
+    titulo: "Carro parado não ganha frete",
+    arquivo: "audios/ditado_carro_parado_nao_ganha_frete.mp3",
+  },
+  {
     titulo: "Comer o pão que o diabo amassou",
     arquivo: "audios/ditado_comer_o_pao_que_o_diabo_amassou.mp3",
   },
