@@ -10,8 +10,16 @@ const audios = [
     titulo: "Por cima sai as errendas",
     arquivo: "audios/ditado_por_cima_sai_as_errendas.mp3",
   },
+  {
+    titulo: "Pulga em cachorro magro",
+    arquivo: "audios/ditado_pulga_em_cachorro_magro.mp3",
+  },
   { titulo: "De grão em grão", arquivo: "audios/ditado_de_grao_em_grao.mp3" },
   { titulo: "Deus ajuda", arquivo: "audios/ditado_deus_ajuda.mp3" },
+  {
+    titulo: "É dando que se recebe",
+    arquivo: "audios/ditado_eh_dando_que_se_recebe.mp3",
+  },
   { titulo: "Filho de peixe", arquivo: "audios/ditado_filho_de_peixe.mp3" },
   { titulo: "Gastar vela", arquivo: "audios/ditado_gastar_vela.mp3" },
   { titulo: "Gato por lebre", arquivo: "audios/ditado_gato_por_lebre.mp3" },
@@ -26,6 +34,7 @@ const audios = [
     arquivo: "audios/ditado_nao_vai_lavar_louca.mp3",
   },
   { titulo: "Olho por olho", arquivo: "audios/ditado_olho_lho.mp3" },
+  { titulo: "Olho por olho", arquivo: "audios/ditado_olho_por_olho.mp3" },
   { titulo: "Quem canta", arquivo: "audios/ditado_quem_canta.mp3" },
   { titulo: "Quem não tem cão", arquivo: "audios/ditado_quem_nao_tem_cao.mp3" },
   {
