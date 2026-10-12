@@ -8,6 +8,10 @@ const audios = [
     arquivo: "audios/ditado_cachorro_que_muito_late.mp3",
   },
   {
+    titulo: "Cabeça vazia é oficina do diabo",
+    arquivo: "audios/ditado_cabeca_vazia_eh_oficina_do_diabo.mp3",
+  },
+  {
     titulo: "Carro parado não ganha frete",
     arquivo: "audios/ditado_carro_parado_nao_ganha_frete.mp3",
   },
@@ -30,6 +34,7 @@ const audios = [
   },
   { titulo: "De grão em grão", arquivo: "audios/ditado_de_grao_em_grao.mp3" },
   { titulo: "Deus ajuda", arquivo: "audios/ditado_deus_ajuda.mp3" },
+  { titulo: "Deus dá asa", arquivo: "audios/ditado_deus_da_asa.mp3" },
   {
     titulo: "É dando que se recebe",
     arquivo: "audios/ditado_eh_dando_que_se_recebe.mp3",
@@ -60,11 +65,21 @@ const audios = [
     titulo: "Não faça mal ao vizinho",
     arquivo: "audios/ditado_nao_faca_mal_ao_vizinho.mp3",
   },
+  { titulo: "Não come ovo", arquivo: "audios/ditado_nao_come_ovo.mp3" },
   { titulo: "O apressado", arquivo: "audios/ditado_o_apressado.mp3" },
+  { titulo: "Nossa Senhora", arquivo: "audios/ditado_nossa_senhora.mp3" },
   { titulo: "Olho por olho", arquivo: "audios/ditado_olho_lho.mp3" },
   { titulo: "Olho por olho", arquivo: "audios/ditado_olho_por_olho.mp3" },
   { titulo: "Quem canta", arquivo: "audios/ditado_quem_canta.mp3" },
+  {
+    titulo: "Quem não te conhece",
+    arquivo: "audios/ditado_quem_nao_te_conhece.mp3",
+  },
   { titulo: "Quem não tem cão", arquivo: "audios/ditado_quem_nao_tem_cao.mp3" },
+  {
+    titulo: "Quando Deus não dá",
+    arquivo: "audios/ditado_quando_deus_nao_da.mp3",
+  },
   {
     titulo: "Segue toda vida reto",
     arquivo: "audios/ditado_segue_toda_vida_reto.mp3",
@@ -73,6 +88,14 @@ const audios = [
   { titulo: "Serração na serra", arquivo: "audios/ditado_serracao_na_serra.mp3" },
   { titulo: "Sol e chuva", arquivo: "audios/ditado_sol_e_chuva.mp3" },
   { titulo: "Tupi", arquivo: "audios/ditado_tupi.mp3" },
+  {
+    titulo: "Vai num pé e volta no outro",
+    arquivo: "audios/ditado_vai_num_pe_e_volta_no_outro.mp3",
+  },
+  {
+    titulo: "Vamos junto, voltamo junto",
+    arquivo: "audios/ditad_vamos_junto_voltamo_junto.mp3",
+  },
   { titulo: "Cavalo dado", arquivo: "audios/ditato_cavalo_dado.mp3" },
   { titulo: "Vassoura", arquivo: "audios/ditado_vassoura.mp3" },
 ];
