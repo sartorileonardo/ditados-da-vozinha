@@ -2,14 +2,24 @@ const audios = [
   { titulo: "Água mole em pedra dura", arquivo: "audios/ditado_agua_mole_em_pedra_dura.mp3" },
   { titulo: "A batata e a casca", arquivo: "audios/ditado_batata_casca.mp3" },
   { titulo: "A bucica folgada", arquivo: "audios/ditado_bucica_folgada.mp3" },
+  { titulo: "Cachorro com fome", arquivo: "audios/ditado_cachorro_com_fome.mp3" },
   {
     titulo: "Cachorro que muito late",
     arquivo: "audios/ditado_cachorro_que_muito_late.mp3",
   },
   {
+    titulo: "Comer o pão que o diabo amassou",
+    arquivo: "audios/ditado_comer_o_pao_que_o_diabo_amassou.mp3",
+  },
+  {
+    titulo: "Depois da tempestade",
+    arquivo: "audios/ditado_depois_da_tempestade.mp3",
+  },
+  {
     titulo: "Por cima sai as errendas",
     arquivo: "audios/ditado_por_cima_sai_as_errendas.mp3",
   },
+  { titulo: "Pobre com luxo", arquivo: "audios/ditado_pobre_com_luxo.mp3" },
   {
     titulo: "Pulga em cachorro magro",
     arquivo: "audios/ditado_pulga_em_cachorro_magro.mp3",
@@ -22,6 +32,7 @@ const audios = [
   },
   { titulo: "Filho de peixe", arquivo: "audios/ditado_filho_de_peixe.mp3" },
   { titulo: "Gastar vela", arquivo: "audios/ditado_gastar_vela.mp3" },
+  { titulo: "Gato escaldado", arquivo: "audios/ditado_gato_escaldado.mp3" },
   { titulo: "Gato por lebre", arquivo: "audios/ditado_gato_por_lebre.mp3" },
   { titulo: "Mandrião", arquivo: "audios/ditado_mandriao.mp3" },
   {
@@ -33,6 +44,7 @@ const audios = [
     titulo: "Não vai lavar louça",
     arquivo: "audios/ditado_nao_vai_lavar_louca.mp3",
   },
+  { titulo: "O apressado", arquivo: "audios/ditado_o_apressado.mp3" },
   { titulo: "Olho por olho", arquivo: "audios/ditado_olho_lho.mp3" },
   { titulo: "Olho por olho", arquivo: "audios/ditado_olho_por_olho.mp3" },
   { titulo: "Quem canta", arquivo: "audios/ditado_quem_canta.mp3" },
@@ -43,7 +55,9 @@ const audios = [
   },
   { titulo: "Serração baixa", arquivo: "audios/ditado_serracao_baixa.mp3" },
   { titulo: "Serração na serra", arquivo: "audios/ditado_serracao_na_serra.mp3" },
+  { titulo: "Sol e chuva", arquivo: "audios/ditado_sol_e_chuva.mp3" },
   { titulo: "Tupi", arquivo: "audios/ditado_tupi.mp3" },
+  { titulo: "Cavalo dado", arquivo: "audios/ditato_cavalo_dado.mp3" },
   { titulo: "Vassoura", arquivo: "audios/ditado_vassoura.mp3" },
 ];
 
